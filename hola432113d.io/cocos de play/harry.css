@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea los elementos hacia arriba */
+    align-items: center; /* Alinea los elementos al centro horizontalmente */
+    min-height: 10vh;
+  }
+  
+  .centered-image {
+    margin-top: 20px; /* Espacio opcional para separar la imagen del borde superior */
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    height: 130;
+    display: block;
+  }
+  
